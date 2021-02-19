@@ -2,7 +2,7 @@ import React, { memo, useCallback, useMemo, useRef, useState } from 'react'
 import { ArrowLeft } from 'react-feather'
 import { usePopper } from 'react-popper'
 import { useDispatch, useSelector } from 'react-redux'
-import { Button, Text } from '@pancakeswap-libs/uikit'
+import { Button, Text } from '@pieswap-libs/uikit'
 import styled from 'styled-components'
 import { ReactComponent as DropDown } from '../../assets/images/dropdown.svg'
 import { useFetchListCallback } from '../../hooks/useFetchListCallback'
@@ -286,7 +286,7 @@ export function ListSelect({ onDismiss, onBack }: { onDismiss: () => void; onBac
       <PaddedColumn gap="14px">
         <Text bold>
           Add a list{' '}
-          <QuestionHelper text="Token lists are an open specification for lists of BEP20 tokens. You can use any token list by entering its URL below. Beware that third party token lists can contain fake or malicious BEP20 tokens." />
+          <QuestionHelper text="Token lists are an open specification for lists of OIP20 tokens. You can use any token list by entering its URL below. Beware that third party token lists can contain fake or malicious OIP20 tokens." />
         </Text>
         <Row>
           <SearchInput
