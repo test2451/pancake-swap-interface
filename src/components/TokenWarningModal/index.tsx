@@ -1,6 +1,6 @@
-import { Token } from '@pancakeswap-libs/sdk'
+import { Token } from '@pieswap-libs/sdk'
 import { transparentize } from 'polished'
-import { Button, Text } from '@pancakeswap-libs/uikit'
+import { Button, Text } from '@pieswap-libs/uikit'
 import React, { useCallback, useMemo, useState } from 'react'
 import styled from 'styled-components'
 import { AlertTriangle } from 'react-feather'
@@ -107,12 +107,12 @@ export default function TokenWarningModal({
             <Text color="failure">Token imported</Text>
           </AutoRow>
           <Text>
-            Anyone can create an BEP20 token on BSC with <em>any</em> name, including creating fake versions of existing
+            Anyone can create an OIP20 token on BSC with <em>any</em> name, including creating fake versions of existing
             tokens and tokens that claim to represent projects that do not have a token.
           </Text>
           <Text>
             This interface can load arbitrary tokens by token addresses. Please take extra caution and do your research
-            when interacting with arbitrary BEP20 tokens.
+            when interacting with arbitrary OIP20 tokens.
           </Text>
           <Text>
             If you purchase an arbitrary token, <strong>you may be unable to sell it back.</strong>
