@@ -1,6 +1,6 @@
 # Pie Swap Listing Tutorial
 
-So, you’ve come, you’ve tasted our secret sauce 🥞 and now you’re wanting to be a part of the PieSwap kitchen.
+So, you’ve come, you’ve tasted our secret sauce 🥧 and now you’re wanting to be a part of the PieSwap kitchen.
 
 If you’re interested in listing on the PieSwap exchange, follow this guide closely.
 
