@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react'
 import styled from 'styled-components'
-import { Button, Text } from '@pancakeswap-libs/uikit'
+import { Button, Text } from '@pieswap-libs/uikit'
 import { AlertTriangle } from 'react-feather'
 import { TYPE } from '../Shared'
 import Modal from '../Modal'
@@ -51,8 +51,8 @@ export default function SyrupWarningModal({
               </Body>
               <Body color="failure">
                 {transactionType === 'Buying'
-                  ? 'You will not receive CAKE rewards for holding purchased SYRUP.'
-                  : 'You will need to buy back the same amount of SYRUP to be able to convert back to CAKE.'}
+                  ? 'You will not receive PIE rewards for holding purchased SYRUP.'
+                  : 'You will need to buy back the same amount of SYRUP to be able to convert back to PIE.'}
               </Body>
             </>
           )}
